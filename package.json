@@ -1,0 +1,34 @@
+{
+  "name": "thema-martin-luz",
+  "version": "1.0.0",
+  "description": "Teste para empresa Martin Luz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp",
+    "product": "gulp --product"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perrylopes/thema-martin-luz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jQuery": "^1.7.4"
+  },
+  "bugs": {
+    "url": "https://github.com/perrylopes/thema-martin-luz/issues"
+  },
+  "homepage": "https://github.com/perrylopes/thema-martin-luz#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "npm": "^6.14.6"
+  }
+}

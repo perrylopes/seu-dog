@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enext Challenge Two</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/enext-style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&family=Libre+Baskerville&family=Rowdies:wght@300&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="msg js-msg">
+      <span></span>
+    </div>
+    <header>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-3">Enext Challenge Two</h1>
+          <p class="lead">Seu Dog</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="content">
+              <h2 class="text-center text-uppercase font-weight-bold">
+                Seu Dog é :
+              </h2>
+              <div class="text-center sub-content">
+                <span class="d-block title">Raça:</span>
+                <span class="d-block js-breed-dog breed-dog"
+                  >Nenhum cachorro escolhido</span
+                >
+              </div>
+              <div class="text-center sub-content">
+                <span class="d-block title">Imagem:</span>
+                <img
+                  class="img-thumbnail rounded js-img-dog img-dog"
+                  src="./img/sem-foto.gif"
+                  alt=""
+                />
+                <div class="js-nome-dog nome-dog">
+                  <span></span>
+                </div>
+              </div>
+              <div class="text-center sub-content date js-date">
+                <span>Salvo em:</span>
+                <span class="date__info"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="content">
+              <h2 class="text-center text-uppercase font-weight-bold">
+                Selecione o seu Dog :
+              </h2>
+              <div class="sub-content">
+                <div class="form-row">
+                  <div class="col form-group">
+                    <label for="nome">Nome</label>
+                    <input
+                      type="text"
+                      class="form-control js-nome"
+                      id="nome"
+                      placeholder="Degite um nome"
+                    />
+                  </div>
+                  <div class="col form-group">
+                    <label for="select-dog">Dog</label>
+                    <select
+                      class="form-control"
+                      name="select-dog"
+                      id="select-dog"
+                    >
+                      <option value="">Selecionar</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="col form-group">
+                    <label for="select-color">Cor</label>
+                    <select
+                      class="form-control"
+                      name="select-color"
+                      id="select-color"
+                    >
+                      <option value="">Selecionar</option>
+                      <option value="red">Vermelho</option>
+                      <option value="blue">Azul</option>
+                      <option value="green">Verde</option>
+                      <option value="chocolate">Chocolate</option>
+                      <option value="purple">Roxo</option>
+                    </select>
+                  </div>
+                  <div class="col form-group">
+                    <label for="select-color">Fontes </label>
+                    <select
+                      class="form-control"
+                      name="select-font"
+                      id="select-font"
+                    >
+                      <option value="">Selecionar</option>
+                      <option class="indie-flower" value="Indie Flower"
+                        >Indie Flower</option
+                      >
+                      <option class="kaushan-script" value="Kaushan Script"
+                        >Kaushan Script</option
+                      >
+                      <option
+                        class="libre-baskerville"
+                        value="Libre Baskerville"
+                        >Libre Baskerville</option
+                      >
+                      <option class="rowdies" value="Rowdies">Rowdies</option>
+                      <option class="shadows-into" value="Shadows Into Light"
+                        >Shadows Into Light</option
+                      >
+                    </select>
+                  </div>
+                </div>
+                <button class="btn btn-primary btn-lg margin-auto js-save">
+                  Salvar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/enext-script.js"></script>
+  </body>
+</html>
